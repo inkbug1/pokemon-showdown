@@ -565,7 +565,7 @@ export const Formats: FormatList = [
 		name: "[Gen 8 National Dex] Conquest Standard",
 		ruleset: [
 			'Team Preview', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Obtainable Formes',
-			'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'Dynamax Clause'
+			'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'Endless Battle Clause', 'Dynamax Clause'
 		],
 		banlist: [
 			//General bans
@@ -577,21 +577,21 @@ export const Formats: FormatList = [
 			
 			//Ability and Ability-specific bans
 			'Greninja ++ Protean', 'Blaziken ++ Speed Boost', 'Landorus ++ Sheer Force', 
-			'Greninja-Ash', 'Battle Bond', 'Moody', 'Power Construct', 'Shadow Tag', 'Arena Trap', 
+			'Greninja-Ash', 'Battle Bond', 'Moody', 'Power Construct', 'Shadow Tag',
 			
 			//Mega bans
 			'Blastoise-Mega', 'Blastoisinite', 'Blaziken-Mega', 'Blazikenite', 'Lucario-Mega', 'Lucarionite', 'Kangaskhan-Mega', 'Kangaskhanite',
 			'Gengar-Mega', 'Gengarite', 'Salamence-Mega', 'Salamencite', 'Metagross-Mega', 'Metagrossite', 'Alakazam-Mega', 'Alakazite',
 			
 			//Item bans
-			'Damp Rock', 'Smooth Rock', 'Terrain Extender',
+			'Damp Rock', 'Smooth Rock',
 		],
 	},
 	{
 		name: "[Gen 8 National Dex] Conquest Ubers",
 		ruleset: [
 			'Team Preview', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Obtainable Formes',
-			'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Endless Battle Clause', 'Dynamax Clause'
+			'Nickname Clause', 'OHKO Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'Endless Battle Clause', 'Dynamax Clause'
 		],
 	},
 
