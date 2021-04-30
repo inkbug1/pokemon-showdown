@@ -591,7 +591,11 @@ export const Formats: FormatList = [
 		name: "[Gen 8 National Dex] Conquest Ubers",
 		ruleset: [
 			'Team Preview', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Obtainable Formes', 'Nickname Clause',
-			'OHKO Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'Accuracy Moves Clause', 'Endless Battle Clause', 'Dynamax Clause'
+			'OHKO Clause', 'Evasion Moves Clause', 'Evasion Abilities Clause', 'Accuracy Moves Clause', 'Endless Battle Clause', 'Dynamax Clause',
+			'Mega Rayquaza Clause'
+		],
+		banlist: [
+			'Zacian-Crowned',
 		],
 	},
 
